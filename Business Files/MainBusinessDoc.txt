@@ -1,0 +1,76 @@
+PROPOSED BUSINESS PROBLEM AND SOLUTION (FIRST DRAFT):
+
+Problem: 
+    Background:
+    -----------
+    A college-aged student applies for a large quanitity of jobs. 
+    As the semester progresses, the student updates their resume and continues applying to jobs.
+    The student is notified by an employer to attend an interview.
+
+    The Problem:
+    ------------
+    1. The student does not know when the application was sent to the employer.
+    2. The student does not know what information was sent on the resume the employer recieved.
+    3. The student has no way to locate the resume that was originally sent.
+    4. The student does not remember the reason for applying for the role. 
+    5. The student does not remember the exact role that was applied to, and it's description. 
+    
+    The Solution:
+    -------------
+    Geared towards a prospective graduate, the solution is based on allowing a user to track their job applications.
+    What solves the problem?
+        When a user applies for a job, the data submitted should include:
+            - Job Title 
+                Include option to add the role's description via txt or image upload. 
+            - Employer Name 
+            - Origin of Opportunity: 
+                Recruiter, 
+                Website, 
+                Other,
+                etc.. 
+
+                Allow user to add recruiter's name, website, etc. 
+            - Date of submission 
+            - Resume: 
+                File name, 
+                Version (if applicable)
+                Content (memory management could be issue)
+                
+                Include ability to view/download.
+
+            - ~Insert any additional possible input values 
+    
+    User should be able to preform CRUD operations on their records. 
+
+    Conclusion and Takeaways:
+    ---------------------
+    The functionality should allow the user to resolve the problem presented.
+
+    Additional functionalities proposed:
+        - Search functionality - Job related results filtered from search engine 
+        - User profile customization - To be determined...
+        - Possibility to link external account upon sign-up/login (via API)
+
+    Although the proposed solution is targetting a college-aged student, the solution should be 
+    able to be applicable to any user seeking employment with the desire to track progress. 
+
+    Modernitiy needs to be prioritized in every possible business decision such as:
+        - Business name,
+        - Application title,
+        - UI Design,
+        - Website URL,
+        etc.
+    
+    Security measures need to be adhered to strictly, mindful of this, the following should be considered:
+        - Dependencies are a major source of scan results (various versions of plug-ins can be found to be vulnerable).
+        - Every dependency and their dependent dependencies need to be annoted and grouped in the pom.xml via comments.
+        - Coding practices will need to be outlined and followed. 
+        - Vulnerabilities can exist on the UI, an third developer will need to be provided relavent documentation.
+    
+
+    This is only a first draft. Once official names are established, this document will be transitioned to 
+    more formal documentation. 
+
+
+Original Commit: September 25, 2021
+Last Edit: September 25, 2021
