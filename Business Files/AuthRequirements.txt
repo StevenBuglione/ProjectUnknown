@@ -1,0 +1,12 @@
+User Info Base:
+  Firstname
+  Lastname
+  Email
+  Password
+
+Things to look into :
+  SSO
+  Spring Security SAML
+  Spring Security
+  Fortify
+  Sonar-Type
