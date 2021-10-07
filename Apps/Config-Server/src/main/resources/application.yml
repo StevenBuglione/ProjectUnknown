@@ -5,7 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/krish/spring-cloud-config-store
-          search-paths: '*service'
-          #username: root
-          #passphrase: 12345
+          uri: https://github.com/StevenBuglione/ProjectUnknown
+          search-paths: 'Apps/Config-Store/*service'
+          default-label: main
